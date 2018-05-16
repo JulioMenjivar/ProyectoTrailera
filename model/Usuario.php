@@ -94,7 +94,7 @@ class Usuario extends Conexion
 				$_SESSION['id'] = $data['id'];
 				$_SESSION['rol'] = $data['rol'];
 				$_SESSION['usuario'] = $data['usuario'];
-				header("Location: ../views/DashboardAdmin.php")
+				header("Location: ../views/DashboardAdmin.php");
 				
 			}
 			else{
